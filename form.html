@@ -1,0 +1,37 @@
+<!-- Form Page to add new data -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Data Form</title>
+
+    <!-- import styles.css -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1>Employee Data Form</h1>
+
+    <!-- Form -->
+    <form id="employeeForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="position">Position:</label>
+      <input type="text" id="position" name="position" required />
+
+      <!-- Submit Button -->
+      <input type="submit" value="Submit" />
+
+      <!-- Back button (to index) -->
+      <button type="button" onclick="window.location.href='index.html'">
+        Back
+      </button>
+    </form>
+
+    <!-- import form-script.js -->
+    <script src="form-script.js"></script>
+  </body>
+</html>
